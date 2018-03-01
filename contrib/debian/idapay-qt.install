@@ -1,0 +1,6 @@
+usr/local/bin/idapay-qt usr/bin
+share/pixmaps/idapay32.xpm usr/share/pixmaps
+share/pixmaps/idapay16.xpm usr/share/pixmaps
+share/pixmaps/idapay128.png usr/share/pixmaps
+debian/idapay-qt.desktop usr/share/applications
+debian/idapay-qt.protocol usr/share/kde4/services/

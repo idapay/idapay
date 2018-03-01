@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IDAPay
+Comment=IDAPay P2P Cryptocurrency
+Comment[fr]=IDAPay, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=IDAPay, eşten eşe kriptografik sanal para birimi
+Exec=idapay-qt %u
+Terminal=false
+Type=Application
+Icon=idapay128
+MimeType=x-scheme-handler/idapay;
+Categories=Office;Finance;

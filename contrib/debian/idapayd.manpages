@@ -1,0 +1,3 @@
+debian/manpages/idapayd.1
+debian/manpages/idapay.conf.5
+debian/manpages/idapay-cli.1

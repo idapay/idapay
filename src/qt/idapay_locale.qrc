@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/idapay_bg.qm</file>
+        <file alias="de">locale/idapay_de.qm</file>
+        <file alias="en">locale/idapay_en.qm</file>
+        <file alias="es">locale/idapay_es.qm</file>
+        <file alias="fi">locale/idapay_fi.qm</file>
+        <file alias="fr">locale/idapay_fr.qm</file>
+        <file alias="it">locale/idapay_it.qm</file>
+        <file alias="ja">locale/idapay_ja.qm</file>
+        <file alias="pl">locale/idapay_pl.qm</file>
+        <file alias="pt">locale/idapay_pt.qm</file>
+        <file alias="ru">locale/idapay_ru.qm</file>
+        <file alias="sk">locale/idapay_sk.qm</file>
+        <file alias="sv">locale/idapay_sv.qm</file>
+        <file alias="vi">locale/idapay_vi.qm</file>
+        <file alias="zh_CN">locale/idapay_zh_CN.qm</file>
+        <file alias="zh_TW">locale/idapay_zh_TW.qm</file>
+    </qresource>
+</RCC>

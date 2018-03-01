@@ -1,0 +1,22 @@
+[Unit]
+Description=IDAPay's distributed currency daemon
+After=network.target
+
+[Service]
+User=idapaycore
+Group=idapaycore
+
+Type=forking
+PIDFile=/var/lib/idapayd/idapayd.pid
+ExecStart=/usr/bin/idapayd -daemon -pid=/var/lib/idapayd/idapayd.pid \
+-conf=/etc/idapaycore/idapay.conf -datadir=/var/lib/idapayd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

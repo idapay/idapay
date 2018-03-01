@@ -1,0 +1,11 @@
+[Protocol]
+exec=idapay-qt '%u'
+protocol=idapay
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
